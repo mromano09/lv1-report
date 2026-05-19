@@ -51,3 +51,13 @@ It will then create an Excel file called "my_report.xlsx" on the Desktop.
 ## Notes
 
 If you are running this in a python virtual environment (the default if you run build.sh to install), be sure you activate it ("source venv...") before running lv1-report!
+
+
+# NOTAS PARA PABLO
+Create un entorno virtual con python 3.12 mismo. Si no quieres aislar el entorno, simplemente usa python instalado en tu pc.
+
+Ejecuta estos comandos cuando tengas python instalado correctamente, en la raiz del repo:
+pip install -e .                                                                                                                                                                lv1report --help
+
+Si no da errores, ya le puedes pasar el .emo que quieras.
+lv1report .emo
